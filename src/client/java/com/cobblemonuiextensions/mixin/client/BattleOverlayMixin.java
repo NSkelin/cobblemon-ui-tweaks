@@ -1,4 +1,4 @@
-package com.cobblemonuitweaks.mixin.client;
+package com.cobblemonuiextensions.mixin.client;
 
 import com.cobblemon.mod.common.api.pokedex.PokedexEntryProgress;
 import com.cobblemon.mod.common.api.types.ElementalType;
@@ -10,7 +10,7 @@ import com.cobblemon.mod.common.client.render.models.blockbench.PosableState;
 import com.cobblemon.mod.common.pokemon.Gender;
 import com.cobblemon.mod.common.pokemon.Species;
 import com.cobblemon.mod.common.pokemon.status.PersistentStatus;
-import com.cobblemonuitweaks.CobblemonUiTweaksClient;
+import com.cobblemonuiextensions.CobblemonUIExtensionsClient;
 import kotlin.Triple;
 import net.minecraft.client.gui.GuiGraphics;
 import net.minecraft.network.chat.MutableComponent;
@@ -30,7 +30,7 @@ public abstract class BattleOverlayMixin {
 			GuiGraphics context, float x, float y, float partialTicks, boolean reversed, Species species, int level, MutableComponent displayName, Gender gender, PersistentStatus status, PosableState state, Triple<Float, Float, Float> colour, float opacity, ClientBallDisplay ballState, int maxHealth, float health, boolean isSelected, boolean isHovered, boolean isCompact, MutableComponent actorDisplayName, boolean isFlatHealth, PokedexEntryProgress dexState, CallbackInfo ci
 	) {
 		// Only show types in enabled in config.
-		if(!CobblemonUiTweaksClient.CONFIG.ShowBattleTypes()) return;
+		if(!CobblemonUIExtensionsClient.CONFIG.ShowBattleTypes()) return;
 
 		List<ElementalType> types = StreamSupport.stream(species.getTypes().spliterator(), false).toList();
 		if (types.isEmpty()) return;

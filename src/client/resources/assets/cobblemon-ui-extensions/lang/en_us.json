@@ -1,0 +1,9 @@
+{
+  "text.config.CobblemonUIExtensions.title": "Cobblemon UI Extensions",
+  "text.config.CobblemonUIExtensions.option.ShowBattleTypes": "Show types in battle",
+  "text.config.CobblemonUIExtensions.option.ShowBattleTypes.tooltip": [
+    "When ",
+    { "text": "Enabled", "color": "green", "bold":  true},
+    ", a pokemon's types will be show\nin the battle screen under their portrait."
+  ]
+}

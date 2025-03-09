@@ -1,8 +1,8 @@
 {
 	"schemaVersion": 1,
-	"id": "cobblemon-ui-tweaks",
+	"id": "cobblemon-ui-extensions",
 	"version": "${version}",
-	"name": "cobblemon ui tweaks",
+	"name": "cobblemon ui extensions",
 	"description": "This is an example description! Tell everyone what your mod is about!",
 	"authors": [
 		"Me!"
@@ -12,23 +12,23 @@
 		"sources": "https://github.com/FabricMC/fabric-example-mod"
 	},
 	"license": "CC0-1.0",
-	"icon": "assets/cobblemon-ui-tweaks/icon.png",
+	"icon": "assets/cobblemon-ui-extensions/icon.png",
 	"environment": "*",
 	"entrypoints": {
 		"main": [
 			{
-				"value": "com.cobblemonuitweaks.CobblemonUiTweaks",
+				"value": "com.cobblemonuiextensions.CobblemonUIExtensions",
 				"adapter": "kotlin"
 			}
 		],
 		"client": [
-			"com.cobblemonuitweaks.CobblemonUiTweaksClient"
+			"com.cobblemonuiextensions.CobblemonUIExtensionsClient"
 		]
 	},
 	"mixins": [
-		"cobblemon-ui-tweaks.mixins.json",
+		"cobblemon-ui-extensions.mixins.json",
 		{
-			"config": "cobblemon-ui-tweaks.client.mixins.json",
+			"config": "cobblemon-ui-extensions.client.mixins.json",
 			"environment": "client"
 		}
 	],

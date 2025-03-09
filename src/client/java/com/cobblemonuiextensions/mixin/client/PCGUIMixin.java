@@ -1,4 +1,4 @@
-package com.cobblemonuitweaks.mixin.client;
+package com.cobblemonuiextensions.mixin.client;
 
 import com.cobblemon.mod.common.client.gui.pc.PCGUI;
 import com.cobblemon.mod.common.client.gui.pc.StorageWidget;
