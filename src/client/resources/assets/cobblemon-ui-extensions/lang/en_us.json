@@ -5,5 +5,22 @@
     "When ",
     { "text": "Enabled", "color": "green", "bold":  true},
     ", a pokemon's types will be show\nin the battle screen under their portrait."
+  ],
+  "text.config.CobblemonUIExtensions.option.ReversePCScrollDirection": "Reverse PC / Pasture Scroll Direction",
+  "text.config.CobblemonUIExtensions.option.ReversePCScrollDirection.tooltip": [
+    "When ",
+    { "text": "Enabled", "color": "green", "bold":  true},
+    ", the scroll direction that increases / decreases the box number inside a ",
+    { "text": "PC", "color": "yellow"},
+    " will be reversed.",
+    "\ndisabled: ",
+    { "text": "scroll up", "color": "#0096FF"},
+    ": box 2 -> box 1. ",
+    { "text": "scroll down", "color": "#0096FF"},
+    ": box 1 -> box 2.\nenabled: ",
+    { "text": "scroll up", "color": "#0096FF"},
+    ": box 1 -> box 2. ",
+    { "text": "scroll down", "color": "#0096FF"},
+    ": box 2 -> box 1. "
   ]
 }
