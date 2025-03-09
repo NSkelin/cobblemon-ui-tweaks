@@ -1,0 +1,11 @@
+{
+	"required": true,
+	"package": "com.cobblemonuitweaks.mixin.client",
+	"compatibilityLevel": "JAVA_21",
+	"client": [
+		"BattleOverlayMixin"
+	],
+	"injectors": {
+		"defaultRequire": 1
+	}
+}
