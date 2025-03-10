@@ -7,5 +7,6 @@ import io.wispforest.owo.config.annotation.Modmenu;
 @Config(name = "CobblemonUIExtensions", wrapperName = "CobblemonUIExtensionsConfig")
 public class ModConfig {
     public boolean ShowBattleTypes = true;
+    public boolean PCScrolling = true;
     public boolean ReversePCScrollDirection = false;
 }

@@ -19,6 +19,8 @@ public abstract class PCGUIMixin {
     private void injectPCScrollControl(
             double mouseX, double mouseY, double amount, double verticalAmount, CallbackInfoReturnable<Boolean> cir
     ) {
+        if (!CobblemonUIExtensionsClient.CONFIG.PCScrolling()) return;
+
         var reverse = CobblemonUIExtensionsClient.CONFIG.ReversePCScrollDirection() ? 1 : -1;
         int box = this.storageWidget.getBox();
         int change = (int) (verticalAmount * reverse);

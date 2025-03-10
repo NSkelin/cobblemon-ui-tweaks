@@ -6,6 +6,16 @@
     { "text": "Enabled", "color": "green", "bold":  true},
     ", a pokemon's types will be show\nin the battle screen under their portrait."
   ],
+  "text.config.CobblemonUIExtensions.option.PCScrolling": "Allow scrolling in PC / Pasture",
+  "text.config.CobblemonUIExtensions.option.PCScrolling.tooltip": [
+    "When ",
+    { "text": "Enabled", "color": "green", "bold":  true},
+    { "text": " scrolling", "color": "#0096FF"},
+    " will switch the box number inside a ",
+    { "text": "PC", "color": "yellow"},
+    " or ",
+    { "text": "Pasture", "color": "yellow"}
+  ],
   "text.config.CobblemonUIExtensions.option.ReversePCScrollDirection": "Reverse PC / Pasture Scroll Direction",
   "text.config.CobblemonUIExtensions.option.ReversePCScrollDirection.tooltip": [
     "When ",
